@@ -4,6 +4,7 @@ This website will give information  related to certain places people want to tra
 
 
 #Day 1:
+
 ->Created the index page header.It has navigation bar.
 
 ->Header has a some content that comes with an animation when we open the website.
