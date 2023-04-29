@@ -67,6 +67,7 @@ h1,h2,h3{
 }
 /*For button*/
 .btn{
+
     display: inline-block;
     padding: 0.5em 1.5em;
     font-weight: 500;
@@ -76,6 +77,10 @@ h1,h2,h3{
 .btn-primary{
     background-color: white;
     border-radius: 10rem;
+}
+.btn-primary:hover{
+    background-color: #e63946;
+    color: #fff;
 }
 
 
@@ -128,29 +133,145 @@ h1,h2,h3{
     left:50%;
     transform: translate(-50%,-300%);
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.005),rgba(0,0,0,0.12));
+    background: linear-gradient(rgba(0, 0, 0,0.05),rgba(0, 0, 0, 0));
 }
 .header-content h1{ 
+    position: relative;
     text-transform: uppercase;
     font-weight: 700;
 }
 .header-content p{
+    position: relative;
     text-transform: uppercase;
 }
 
 
 /*animation*/
 .header-content{
+    display: inline-block;
+    position: relative;
     animation: content 1.2s forwards 1 ease-in-out;
 }
 @keyframes content {
     0%{
-        top: 0px;
-        left: 720px;
+        top: 0%;
+        left: 50%;
     }
     100%{
-        top:800px;
-        left: 720px;
+        top:110%;
+        left: 50%;
     }
     
 }
+
+
+/*showcase section-------*/
+/*utility for section*/
+.row{
+    height: 350px;
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px #0000008b;
+}
+
+/*row 1 ki image and row2 ki text float hai left me*/
+
+.showcase{
+    background: #ddd;
+    padding:10rem 0;
+}
+.row1{
+    margin-bottom: 10rem;
+}
+
+.row1 .imgbox,.row2 .textbox{
+    float:left;
+    width: 50%;
+}
+.row2 .imgbox,.row1 .textbox{
+    float:right;
+    width: 50%;
+}
+.row .imgbox{
+    
+    height: 100%;   /*100% height of its parent i.e 350px*/
+
+}
+.row .textbox{
+    border: 2px solid red;
+    height: 100%;
+    padding:3rem;
+}
+
+.row .imgbox img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /*if the display size is change,the aspect ratio of the image should not change,for that we use the below attribute*/
+    object-fit: cover;
+}
+.btn-sec{
+    border: 2px solid #e63946;
+    border-radius: 1.5em;
+    color: #e63946;
+    background-color: #fff;
+}
+.btn-sec:hover{
+    background-color: #e63946;
+    color: #fff;
+}
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*feature section*/
+.features{
+    padding: 10rem 0;
+
+}
+
+.box-wrap{
+    box-shadow: 0px 0px 20px #00000085;
+}
+
+
+.box{
+    width: 33.333333333%;
+    float: left;
+    padding: 2rem;
+    text-align: center;
+}
+.box1
+{
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(128,248,174,1) 0%, rgba(223,244,148,1) 90% );
+    
+}
+.box2{
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,193,104,1) 0%, rgba(251,128,128,1) 90% );
+    
+}
+.box3{
+    background: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+   
+}
+
+.box-wrap::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*footer stylng*/
+.footer{
+    background:#263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align:center;
+
+}
+.social-links i{
+    margin: 2rem;
+}
+
+
