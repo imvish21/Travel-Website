@@ -161,7 +161,7 @@ h1,h2,h3{
         left: 50%;
     }
     100%{
-        top:110%;
+        top:115%;
         left: 50%;
     }
     
@@ -200,7 +200,6 @@ h1,h2,h3{
 
 }
 .row .textbox{
-    border: 2px solid red;
     height: 100%;
     padding:3rem;
 }
@@ -510,4 +509,318 @@ width: 50%;
     outline: none;
     border: none;
     cursor: pointer;
+}
+
+
+/*media query for a responsive website*/
+
+/*devices with width<=500*/
+@media (min-width:0px) and (max-width:300px)
+{
+    html{
+        font-size: 50%;
+    }
+
+    .navbar .container .logo{
+        float:none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar  .container .nav-items{
+        float:none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+
+    @keyframes content {
+        0%{
+            top: 0%;
+            left: 50%;
+        }
+        100%{
+            top:110%;
+            left: 50%;
+        }
+        
+    }
+   
+   .row{
+    height: auto;
+    width: 100%;
+   }
+
+   .row .imgbox,
+   .row .textbox{
+      float:none;
+      width:100%;
+      text-align: center;
+   }
+   .features .box{
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 20px #00000085
+   }
+   
+   .features .box2,
+   .features .box3{
+    margin-top: 6rem;
+   }
+
+   .box-wrap{
+    box-shadow: none;
+}
+    
+   /*aboutus*/
+   .bannerleft,
+   .bannerright{
+      float: none;
+      width: 100%;
+      text-align: center;
+   }
+
+   .formwrap .companyadd{
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-bottom: 5rem;
+   }
+  
+
+   .formwrap .form
+   {
+    float: none;
+    width: 100%;
+    height: auto;
+   }
+
+   .banner .bannerleft,
+   .banner .bannerright{
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+   }
+
+}
+@media (min-width:301px) and (max-width:500px)
+{
+    html{
+        font-size: 50%;
+    }
+
+    .navbar .container .logo{
+        float:none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar  .container .nav-items{
+        float:none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+
+    @keyframes content {
+        0%{
+            top: 0%;
+            left: 50%;
+        }
+        100%{
+            top:95%;
+            left: 50%;
+        }
+        
+    }
+   
+   .row{
+    height: auto;
+    width: 100%;
+   }
+
+   .row .imgbox,
+   .row .textbox{
+      float:none;
+      width:100%;
+      text-align: center;
+   }
+   .features .box{
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 20px #00000085
+   }
+   
+   .features .box2,
+   .features .box3{
+    margin-top: 6rem;
+   }
+
+   .box-wrap{
+    box-shadow: none;
+}
+    
+   /*aboutus*/
+   .bannerleft,
+   .bannerright{
+      float: none;
+      width: 100%;
+      text-align: center;
+   }
+
+   .formwrap .companyadd{
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-bottom: 5rem;
+   }
+  
+
+   .formwrap .form
+   {
+    float: none;
+    width: 100%;
+    height: auto;
+   }
+
+   .banner .bannerleft,
+   .banner .bannerright{
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+   }
+
+
+}
+
+@media (min-width:501px) and (max-width:900px)
+{
+
+    html{
+        font-size: 50%;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+
+    .navbar .nav-items .navbar .logo{
+        float:none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    @keyframes content {
+        0%{
+            top: 0%;
+            left: 50%;
+        }
+        100%{
+            top:95%;
+            left: 50%;
+        }
+        
+    }
+   
+   .row{
+    height: auto;
+    width: 100%;
+   }
+
+   .row .imgbox,
+   .row .textbox{
+      float:none;
+      width:100%;
+      text-align: center;
+   }
+   .features .box{
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 20px #00000085
+   }
+   
+   .features .box2,
+   .features .box3{
+    margin-top: 6rem;
+   }
+
+   .box-wrap{
+    box-shadow: none;
+}
+    
+   /*aboutus*/
+   .banner .bannerleft,
+   .banner .bannerright{
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+   }
+
+   .formwrap .companyadd{
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-bottom: 5rem;
+   }
+  
+
+   .formwrap .form
+   {
+    float: none;
+    width: 100%;
+    height: auto;
+   }
+}
+
+@media (min-width:901px) and (max-width:1200px)
+{
+    html{
+        font-size: 56.25%;
+
+    }
+    .row .textbox h2{
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+    @keyframes content {
+        0%{
+            top: 0%;
+            left: 50%;
+        }
+        100%{
+            top:100%;
+            left: 50%;
+        }
+        
+    }
+}
+@media (min-width:1201px)
+{
+    @keyframes content {
+        0%{
+            top: 0%;
+            left: 50%;
+        }
+        100%{
+            top:113.5%;
+            left: 50%;
+        }
+        
+    }
+}
+
+
+@media (orientation: landscape) and (max-height: 500px){
+    .header{
+        height: 90vmax;
+    }
 }
