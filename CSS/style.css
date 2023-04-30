@@ -65,6 +65,9 @@ h1,h2,h3{
 .text-grey{
     color: #555555;
 }
+.bg-dark{
+    background-color: #263238;
+}
 /*For button*/
 .btn{
 
@@ -98,15 +101,15 @@ h1,h2,h3{
 .navbar{
     padding: 1rem;
 }
-.header .navbar .logo{
+.navbar .logo{
     float: left;
     /*font-size: 3.5rem;    3.5rem =35x OR we can use utility class */
 }
-.header .navbar .nav-items{
+ .navbar .nav-items{
     float: right;
     margin-top: 1rem;
 }
-.header .navbar .nav-item{
+ .navbar .nav-item{
     display: inline-block;
     padding: 1rem;
     text-transform: uppercase;
@@ -273,5 +276,238 @@ h1,h2,h3{
 .social-links i{
     margin: 2rem;
 }
+.contact-link{
+    font-size: 1rem;
+   color: #fff;
+}
 
 
+/*About page styling*/
+
+.about{
+    padding: 3rem 0;
+}
+
+/*.about-heading{
+    border-bottom:6px solid #e63946 ;
+}*/
+
+.about-heading::after{
+    content:'';
+    border:3px solid #e63946;
+    display: block;
+    width: 100%;
+}
+
+/*about wrap*/
+.aboutwrap{
+    
+    text-align: center;
+    margin-top: 2rem;
+}
+.aboutwrap .left
+{
+   float:left;
+   width: 50%;
+}
+.aboutwrap .right
+{
+float:right;
+width: 50%;
+}
+
+.aboutwrap::after{
+    content: '';
+    display: block;
+    clear:both;
+}
+.aboutwrap li::before{
+    content: '\2713';
+    color: #e63946;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+/*count styling*/
+
+.count{
+    margin-top: 3rem;
+}
+
+.count .countitems{
+    float:left;
+    width: 25%;
+    text-align: center;
+}
+
+.countitems span{
+    font-size: 2.6rem;
+    font-weight: 700;   /*bold*/
+    color: #e63946;
+}
+
+.count::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.countitems p{
+    font-weight: 700;
+    color: #555;
+}
+
+/*banner styling*/
+
+.banner
+{
+    
+    margin-top: 3rem;
+    color: #f4f4f4;
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    padding: 1rem;
+    box-shadow: 5px 5px 20px #000000a0;
+}
+.banner .bannerleft{
+    width: 60%;
+    
+    float:left;
+    text-align: left;
+    
+}
+.banner .bannerright{
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.bline
+{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin: 1.3rem;
+}
+.bannerlink{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border: 3.3px solid white;
+    padding: 0.3em 2.5em;
+    letter-spacing: 0.5rem;
+    color: #f4f4f4;
+
+}
+.bannerlink:hover
+{
+    border:3.3px solid #555;
+    background: #fff;
+    color:#555;
+}
+
+.banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/*contact page styling*/
+
+.contact{
+    padding: 5rem 0;
+    background: #f7f7f7;
+}
+
+.formwrap .companyadd{
+    height: 785px;
+    background: #fff;
+    
+    width: 49%;
+    float: left;
+    padding: 1rem;
+}
+/*companyadd styling*/
+.formwrap .companyadd i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.formwrap .companyadd h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.formwrap .addgrp{
+    margin-bottom: 3rem;
+}
+
+.formwrap .companyadd img{
+    max-width: 90%;
+    min-height: 30rem;
+    height: 40%;
+    object-fit: cover;
+   
+}
+
+.formwrap::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*form styling*/
+
+.formwrap .form{
+    height: 785px;
+    font-size: 1.6rem;
+    background: #fff;
+   width: 49%;
+   float: right;
+   padding: 1rem;
+}
+
+.form h1::after{
+   content: ''; 
+   display: block;
+   border:3px solid #e63946;
+   width: 100%;
+}
+
+.formwrap .form label{
+    display: block;
+}
+.formwrap .form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+
+
+.formwrap .form .formgrp{
+    margin-bottom: 1.2rem;
+}
+
+.formwrap .form label::after{
+    content: '*';
+    color: #e63946;
+}
+
+.formwrap .form textarea{
+    width:100%;
+    height: 300px;
+    padding: 1rem;
+}
+
+/*form button*/
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 3em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: #e63946;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
