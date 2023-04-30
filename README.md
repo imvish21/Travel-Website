@@ -25,3 +25,19 @@ This website will give information  related to certain places people want to tra
 
 
 ![footer](https://user-images.githubusercontent.com/92950796/235326771-e04d988a-d135-4e6d-8449-40ea0c9783cc.jpg)
+
+
+#Day 3:
+
+->Created the About us and contact us pages.
+
+->About Us-------------
+
+![aboutus](https://user-images.githubusercontent.com/92950796/235353884-aed98d5f-16d2-4ac5-a1cd-5258c9baaeb9.jpg)
+
+->Contact Us-----------
+
+
+![contactus](https://user-images.githubusercontent.com/92950796/235353911-042b248f-0f4a-488b-be7d-388be8ed6286.jpg)
+
+
