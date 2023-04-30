@@ -40,4 +40,7 @@ This website will give information  related to certain places people want to tra
 
 ![contactus](https://user-images.githubusercontent.com/92950796/235353911-042b248f-0f4a-488b-be7d-388be8ed6286.jpg)
 
+#Day 4:
+->Made the website fully responsive for desktop , tablets and mobiles using Media queries.
 
+#Project Completed:30/04/2023.                                                                                                               --- Made By Vishal Kumar.
