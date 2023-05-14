@@ -1,5 +1,5 @@
 # Travel-Website
-This website will give information  related to certain places people want to travel.It is a Completely Responsive Website.It will purely be based on HTML and CSS.In this website,we use CSS Floats for positioning our elements.
+This website will give information  related to certain places people want to travel.It is a completely Responsive Website.It will purely be based on HTML and CSS.In this website,we use CSS Floats for positioning our elements.Explore the website by visiting the link given.
 
 #Day 1:
 
